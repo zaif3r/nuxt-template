@@ -1,0 +1,7 @@
+services:
+  nuxt:
+    build:
+      context: .
+    container_name: ${CONTAINER_NAME:-nuxt-app}
+    ports:
+      - "${HOST_PORT:-3000}:3000"
