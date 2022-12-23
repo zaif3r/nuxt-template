@@ -9,6 +9,7 @@ export default defineNuxtConfig({
                 { name: "description", content: "My amazing site." },
             ],
         },
+        baseURL: process.env.NODE_ENV === "development" ? "/" : process.env.BASE_URL,
     },
     modules: [
         "@nuxt/image-edge",
