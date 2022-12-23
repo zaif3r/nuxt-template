@@ -11,5 +11,8 @@
     "@nuxt/image-edge": "^1.0.0-27840416.dc1ed65",
     "@nuxtjs/tailwindcss": "^6.1.3",
     "nuxt": "3.0.0"
+  },
+  "dependencies": {
+    "@zaifer/peachui": "^0.2.11"
   }
 }
